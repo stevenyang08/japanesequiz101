@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.japanesequiz101.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fuji"
+        android:scaleType="centerCrop"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="72dp"
+        android:fillViewport="true"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1"
+            >
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+
+                android:background="@android:color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                >
+
+                <TextView
+                    style="@style/HeaderStyle"
+                    android:text="@string/question1"
+                    />
+                <EditText
+                    android:id="@+id/question1_edit_text"
+                    style="@style/MyEditText"
+                    android:hint="@string/questionHint"
+                    />
+                <TextView
+                    style="@style/HeaderStyle"
+                    android:text="@string/question2"
+                    />
+                <CheckBox
+                    android:id="@+id/question2_answer1"
+                    style="@style/MyCheckbox"
+                    android:text="@string/question2answer1"
+                    />
+                <CheckBox
+                    android:id="@+id/question2_answer2"
+                    style="@style/MyCheckbox"
+                    android:text="@string/question2answer2"
+                    />
+                <CheckBox
+                    android:id="@+id/question2_answer3"
+                    style="@style/MyCheckbox"
+                    android:text="@string/question2answer3"
+                    />
+                <CheckBox
+                    android:id="@+id/question2_answer4"
+                    style="@style/MyCheckbox"
+                    android:text="@string/question2answer4"
+                    />
+                <TextView
+                    style="@style/HeaderStyle"
+                    android:text="@string/question3"
+                    />
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RadioButton
+                        android:id="@+id/question3_radio1"
+                        style="@style/MyRadioButton"
+                        android:text="@string/question3answer1"
+                        android:layout_marginLeft="24dp"
+                        />
+                    <RadioButton
+                        android:id="@+id/question3_radio2"
+                        style="@style/MyRadioButton"
+                        android:text="@string/question3answer2"
+                        android:layout_marginLeft="16dp"
+                        />
+                    <RadioButton
+                        android:id="@+id/question3_radio3"
+                        style="@style/MyRadioButton"
+                        android:text="@string/question3answer3"
+                        android:layout_marginLeft="16dp"
+                        />
+                </RadioGroup>
+
+                <TextView
+                    style="@style/HeaderStyle"
+                    android:text="@string/question4"
+                    />
+                <EditText
+                    android:id="@+id/question4_edit_text"
+                    style="@style/MyEditText"
+                    android:hint="@string/questionHint"
+                    android:layout_marginBottom="16dp"
+                    />
+
+            </LinearLayout>
+
+        </TableLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/completeButton"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:backgroundTint="#F44336"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:onClick="completeTest"
+        />
+
+</RelativeLayout>
+
+
+

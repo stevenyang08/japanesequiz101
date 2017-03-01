@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Japanese Quiz 101</string>
+    <string name="question1">1.  Anata wa namae desu ka?</string>
+    <string name="questionHint"><font size="15">Koko ni Kotaeru</font></string>
+    <string name="question2">2.  Doko de tabemasu ka?</string>
+    <string name="question2answer1">Resutoran</string>
+    <string name="question2answer2">Gakkou</string>
+    <string name="question2answer3">Kafe</string>
+    <string name="question2answer4">Ginko</string>
+    <string name="question3">3.  Eki wa eigo ga nan to iimasu ka?</string>
+    <string name="question3answer1">Bank</string>
+    <string name="question3answer2">Station</string>
+    <string name="question3answer3">Hotel</string>
+    <string name="question4">4.  7 wa nihongo ga nani wo desu ka?</string>
+    <string name="completeButton">Completed Test</string>
+    <string name="result1">You scored</string>
+    <string name="result2">out of</string>
+    <string name="numberOfQuestions">4</string>
+</resources>

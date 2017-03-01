@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="colorAccent">#536DFE</item>
+    </style>
+
+    <style name="HeaderStyle" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#F44336</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="MyEditText" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:backgroundTint">#F44336</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">text</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="MyCheckbox" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:buttonTint">#F44336</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:onClick">buttonClicked</item>
+    </style>
+
+    <style name="MyRadioButton" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:buttonTint">#F44336</item>
+        <item name="android:onClick">buttonClicked</item>
+    </style>
+
+</resources>
